@@ -7,7 +7,7 @@ A Python script for exporting exact assignments and grades from StudentVUE into 
 ### Setup
 
 **1. Prerequisites**
-Ensure you have Python 3 and Pip installed on your system.
+Ensure python3 and pip are installed. 
 
 **2. Get the Code**
 Clone or download this repo.
@@ -18,10 +18,10 @@ cd <repository_directory>
 ```
 
 **3. Install Dependencies**
-This project uses a few external libraries. Install them using pip:
+This project uses a few external libraries. Install them using pip (this makes a venv too):
 
 ```bash
-pip install -r requirements.txt
+python3 -m venv venv && source venv/bin/activate && pip install -r requirements.txt
 ```
 
 **4. Configure Credentials**
